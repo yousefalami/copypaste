@@ -34,4 +34,4 @@ jobs:
         makeMoney();" > script.js
 
     - name: Run JavaScript code
-      run: node script.js 
+      run: node script.js
