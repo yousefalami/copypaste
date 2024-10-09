@@ -2,7 +2,7 @@ name: Run makeMoney Script
 
 on:
   schedule:
-    - cron: "*/1 * * * *"  # اجرای هر 1 دقیقه
+    - cron: "*/1 * * * *"  # Run every minute
 
 jobs:
   run-script:
