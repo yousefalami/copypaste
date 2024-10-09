@@ -1,0 +1,13 @@
+name: Run makeMoney
+
+on:
+  schedule:
+    - cron: "*/1 * * * *"  # Runs every minute
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run JavaScript code
+      run: |
+        node -e "const url = 'https://api.adsgram.ai/event?type=reward&trackingtypeid=14&record=...';fetch(url).then(res => console.log(res.status === 200 ? 'Success' : 'Failed')).catch(console.error);"
