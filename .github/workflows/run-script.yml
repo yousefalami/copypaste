@@ -1,13 +1,11 @@
-name: Run makeMoney
-
-on:
-  schedule:
-    - cron: "*/1 * * * *"  # Runs every minute
-
 jobs:
   run-script:
     runs-on: ubuntu-latest
     steps:
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # یا ورژنی که نیاز دارید
     - name: Run JavaScript code
       run: |
         node -e "const url = 'https://api.adsgram.ai/event?type=reward&trackingtypeid=14&record=...';fetch(url).then(res => console.log(res.status === 200 ? 'Success' : 'Failed')).catch(console.error);"
