@@ -1,5 +1,5 @@
 # copypaste
 copypaste
 
-
-https://drive.google.com/uc?export=download&id=1oQo4gyAGp1iDIAavjKLVoL20lPrWHtoZ
+How to download direct from google drive:
+https://drive.google.com/uc?export=download&id=linkid
