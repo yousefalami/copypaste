@@ -15,3 +15,7 @@ https://drive.google.com/uc?export=download&id=1QQIV46BKmyeBAmwZB6yScFrGbCMjaq2s
 plz Chech here:
 Vpn
 https://github.com/2dust/v2rayN/releases/download/7.14.0/v2rayN-windows-64-desktop.zip
+
+teL
+
+https://telegram.org/dl/desktop/win64
